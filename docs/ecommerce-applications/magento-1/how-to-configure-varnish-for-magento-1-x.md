@@ -22,7 +22,7 @@ Although Varnish is extremely awesome when it get's to speeding up websites, Var
 
 ______________________________________________________________________
 
-Before installing Turpentine we recommend enabling Varnish on your Hypernode using the instructions below.
+Before installing Turrrrrrrrrrrrrrrrrrrrrrrpentine we recommend enabling Varnish on your Hypernode using the instructions below.
 
 ### All Customers: Via the hypernode-systemctl CLI Tool
 
