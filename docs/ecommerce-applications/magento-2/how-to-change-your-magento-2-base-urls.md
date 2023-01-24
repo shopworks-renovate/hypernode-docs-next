@@ -1,8 +1,12 @@
 ---
 myst:
   html_meta:
-    description: There are several ways to configure the base_url settings of your
-      Magento 2 shop. Find detailed instructions on the different ways here.
+    description: There are several ways to change the Base URL of your Magento 2.x
+      storefronts. In this article we provide you with instructions for each of these
+      ways.
+    title: How to change the base url in Magento 2? | Hypernode
+redirect_from:
+  - /en/ecommerce/magento-2/how-to-change-your-magento-2-base-urls/
 ---
 
 <!-- source: https://support.hypernode.com/en/ecommerce/magento-2/how-to-change-your-magento-2-base-urls/ -->
@@ -41,13 +45,13 @@ To clear your caches, click the big orange button at the top of the page:
 
 ### Configure Your Base URLs Using PHPmyAdmin
 
-As changing the base URLs using PHPmyAdmin works the same for both Magento 1 and Magento 2, take a look at [the Magento 1 article about changing base URLs](https://support.hypernode.com/knowledgebase/change-baseurl-magento1/#Configure_your_base_URLs_usingphpMyAdmin).
+As changing the base URLs using PHPmyAdmin works the same for both Magento 1 and Magento 2, take a look at [the Magento 1 article about changing base URLs](../../ecommerce-applications/magento-1/how-to-change-the-base-url-in-magento-1-x.md#change-the-base-url-via-phpmyadmin).
 
 ## Configuring Your Base URLs Using SSH
 
 ### Change Base URLs Settings With MySQL From the Command Line
 
-To change your base URLs using plain MySQL queries, you can use exactly the same commands as described in [the Magento 1 article](https://support.hypernode.com/knowledgebase/change-baseurl-magento1/#Change_base_URL8217s_settings_with_mysql_from_the_command_line).
+To change your base URLs using plain MySQL queries, you can use exactly the same commands as described in [the Magento 1 article](../../ecommerce-applications/magento-1/how-to-change-the-base-url-in-magento-1-x.md#change-the-base-urls-directly-in-mysql-from-the-commandline).
 
 ### Change Your Base URL Using n98-magerun2
 

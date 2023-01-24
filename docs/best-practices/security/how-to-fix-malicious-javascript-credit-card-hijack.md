@@ -1,9 +1,11 @@
 ---
 myst:
   html_meta:
-    description: The hack Creditcard Hijack is malicious code in Magento that allows
-      hackers to intercept financial data. This article explains more and tells you
-      how to fix it.
+    description: "Learn how to fix the malicious Credit Card Hijack in Magento and\
+      \ protect your customers' financial data. "
+    title: How to fix malicious Javascript Credit Card Hijacks? | Hypernode
+redirect_from:
+  - /en/best-practices/security/how-to-fix-malicious-javascript-credit-card-hijack/
 ---
 
 <!-- source: https://support.hypernode.com/en/best-practices/security/how-to-fix-malicious-javascript-credit-card-hijack/ -->
@@ -168,7 +170,7 @@ The script below was found during the research done by Hypernode. It covers the 
 
 Since Credit Card Hijack is an ongoing credit card fraud dating from May 2015, it’s difficult to pinpoint how exactly the hackers got in. We assume it’s due to a combination of various know Magento leaks. It’s likely hackers used these security vulnerablities to set up this credit card fraud.
 
-We recommend you ‘clean’ your shop following the steps written in the article [Recover a Hacked Magento Shop](https://support.hypernode.com/knowledgebase/recover-a-hacked-magento-shop/) after installing all Magento patches, deleting inactive Magento admins and removing malicious code.
+We recommend you ‘clean’ your shop following the steps written in the article [Recover a Hacked Magento Shop](../../best-practices/security/how-to-recover-a-hacked-magento-shop.md) after installing all Magento patches, deleting inactive Magento admins and removing malicious code.
 
 ## Need Help?
 

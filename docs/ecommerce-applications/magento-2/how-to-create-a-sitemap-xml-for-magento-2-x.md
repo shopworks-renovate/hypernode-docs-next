@@ -1,8 +1,11 @@
 ---
 myst:
   html_meta:
-    description: Find detailed guidelines on how to create a sitemap.xml for Magento
-      2.x versions here.
+    description: This article explains how to enable a sitemap.xml in Magento 2 and
+      how to configure NGINX to Use the Same Sitemap for All Storefronts.
+    title: How to create a sitemap xml for Magento 2? | Hypernode
+redirect_from:
+  - /en/ecommerce/magento-2/how-to-create-a-sitemap-xml-for-magento-2-x/
 ---
 
 <!-- source: https://support.hypernode.com/en/ecommerce/magento-2/how-to-create-a-sitemap-xml-for-magento-2-x/ -->
@@ -116,7 +119,7 @@ When you can successfully request your sitemap.xml, add it to your `robots.txt`:
 Sitemap: http://www.example.com/sitemap.xml
 ```
 
-You can add the sitemap manually or use the generated robots.txt Magento 2 provides. If you use the generated robots.txt, keep in mind all manual changes will be overwritten when you save your changes in the Magento admin. For configuring a `robots.txt` in Magento 2, have a look at [this article](https://support.hypernode.com/en/ecommerce/magento-2/how-to-create-a-robots-txt-for-magento-2-x).
+You can add the sitemap manually or use the generated robots.txt Magento 2 provides. If you use the generated robots.txt, keep in mind all manual changes will be overwritten when you save your changes in the Magento admin. For configuring a `robots.txt` in Magento 2, have a look at [this article](../../ecommerce-applications/magento-2/how-to-create-a-robots-txt-for-magento-2-x.md).
 
 ## Troubleshooting
 

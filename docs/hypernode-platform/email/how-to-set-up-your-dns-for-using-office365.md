@@ -1,8 +1,12 @@
 ---
 myst:
   html_meta:
-    description: How to set up your DNS when you want to use Office365 on a domain
-      that is hosted at Hypernode
+    description: When you want to use Office365 and your domain is registered with
+      Hypernode or hosted on our name servers, you will need to set up your DNS correctly
+      to do so.
+    title: How to set up your DNS for Office 365? | Hypernode
+redirect_from:
+  - /en/best-practices/email/how-to-set-up-your-dns-for-using-office365/
 ---
 
 <!-- source: https://support.hypernode.com/en/best-practices/email/how-to-set-up-your-dns-for-using-office365/ -->
@@ -42,6 +46,6 @@ When you want to keep using the Hypernode name servers while using Office365 you
 
 You don't need to add a new SPF record if you already have one (for example for your Hypernode) you can just edit the current one (with the pencil icon) and add the Outlook value to the current record
 
-Please note that if you had created email boxes and email addresses at Hypernode, you must delete them. You can do this under **Instellingen > Email**in the Service Panel. Make sure to [export the emails](https://support.hypernode.com/en/best-practices/email/how-to-export-your-emails) in the inbox if you want to save them to your new Office365 account before deleting the accounts at Hypernode.
+Please note that if you had created email boxes and email addresses at Hypernode, you must delete them. You can do this under **Instellingen > Email**in the Service Panel. Make sure to [export the emails](../../best-practices/email/how-to-export-your-emails.md) in the inbox if you want to save them to your new Office365 account before deleting the accounts at Hypernode.
 
 Do you have any questions about how Office 365 works? Then it is best to visit the [Office 365 Community](https://techcommunity.microsoft.com/t5/office-365/bd-p/Office365General).

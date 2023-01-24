@@ -1,8 +1,11 @@
 ---
 myst:
   html_meta:
-    description: A lot of bot traffic has a negative impact on the performance of
-      your webshop. At Hypernode you can block unwanted bots in your Service Panel.
+    description: Protect your website from bad bots and malicious requests with Hypernode's
+      Service Panel.
+    title: How to block bad bots via the Service Panel? | Hypernode
+redirect_from:
+  - /en/support/solutions/articles/48001163357-how-to-block-bad-bots-via-the-service-panel/
 ---
 
 <!-- source: https://support.hypernode.com/en/support/solutions/articles/48001163357-how-to-block-bad-bots-via-the-service-panel/ -->
@@ -99,7 +102,7 @@ If you would like to block user agents you have two options.
 - Block via the Service Panel
 - Block via Nginx (`server.blacklist`)
 
-More information on option 2 can be found [here](https://support.hypernode.com/en/hypernode/nginx/how-to-block-user-agents-and-referrer-sites).
+More information on option 2 can be found [here](../../hypernode-platform/nginx/how-to-block-user-agents-and-referrer-sites.md).
 
 The Service Panel blacklist of user agents is completely separated from the list of user agents you may have blocked via `/data/web/nginx/server.blacklist`.
 
@@ -109,6 +112,6 @@ These 2 blacklists function completely separated from each other. If a user agen
 
 ‘Good’ bots like those of search engines Google and Yahoo are for obvious reasons not included in the blacklist, but may potentially generate too much traffic. In these cases we recommend you to regulate bot traffic via `robots.txt`.
 
-Instructions on how to create a `robots.txt` file for Magento 1 shops can be found [here](https://support.hypernode.com/en/ecommerce/magento-1/how-to-create-a-robots-txt-for-your-magento-1-shop).
+Instructions on how to create a `robots.txt` file for Magento 1 shops can be found [here](../../ecommerce-applications/magento-1/how-to-create-a-robots-txt-for-your-magento-1-shop.md).
 
-For Magento 2 shops, [please check this article](https://support.hypernode.com/en/ecommerce/magento-2/how-to-create-a-robots-txt-for-magento-2-x).
+For Magento 2 shops, [please check this article](../../ecommerce-applications/magento-2/how-to-create-a-robots-txt-for-magento-2-x.md).

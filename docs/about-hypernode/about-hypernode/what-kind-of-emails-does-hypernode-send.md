@@ -1,8 +1,11 @@
 ---
 myst:
   html_meta:
-    description: Hypernode sends out different kinds of emails to spread information.
-      In this article you can find which ones we send and why.
+    description: Hypernode sends ServiceMails, ProductMails and NewsMails to customers.
+      All personal information is kept private according to our Privacy Policy.
+    title: Types of Emails Sent by Hypernode | Hypernode
+redirect_from:
+  - /en/about/about-us/what-kind-of-emails-does-hypernode-send/
 ---
 
 <!-- source: https://support.hypernode.com/en/about/about-us/what-kind-of-emails-does-hypernode-send/ -->
@@ -17,7 +20,7 @@ We only send ServiceMails to our active customers. ServiceMails contain informat
 
 ## ProductMail
 
-We continuously improve our Hypernode platform and services. Information about releases and changes can be found in our support documentation and [Changelog](https://support.hypernode.com/category/changelog/). In our ProductMail we present you the most interesting Hypernode releases in one email. On average you receive 1 ProductMail per month.
+We continuously improve our Hypernode platform and services. Information about releases and changes can be found in our support documentation and [Changelog](https://changelog.hypernode.com/). In our ProductMail we present you the most interesting Hypernode releases in one email. On average you receive 1 ProductMail per month.
 
 We highly recommend you to subscribe to our ProductMail and never miss an update on Hypernode. Of course each ProductMail shows the option to unsubscribe.
 

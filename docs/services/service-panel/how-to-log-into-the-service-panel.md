@@ -1,8 +1,11 @@
 ---
 myst:
   html_meta:
-    description: This guide will explain how you can log in to the Service Panel and
-      what to do if you don't have access to your data anymore.
+    description: Logging into the Hypernode Service Panel is simple. Follow our step-by-step
+      guide to learn how to access your service.
+    title: How to log into the Service Panel? | Hypernode
+redirect_from:
+  - /en/about/support/how-to-log-into-the-service-panel/
 ---
 
 <!-- source: https://support.hypernode.com/en/about/support/how-to-log-into-the-service-panel/ -->
@@ -24,7 +27,7 @@ After creating a Hypernode account, you should have received an email containing
 
 ### Securing Your Account With Two Factor Authentication
 
-Two factor authentication, also known as two-step verification, is a more secure way of logging in than logging in with just a password, because everyone receives a unique code to log in. In [this article](https://support.hypernode.com/en/services/control-panel/how-to-use-2fa-for-the-control-panel) we explain how to enable two factor authentication on the Service Panel.
+Two factor authentication, also known as two-step verification, is a more secure way of logging in than logging in with just a password, because everyone receives a unique code to log in. In [this article](../control-panel/how-to-use-2fa-on-the-control-panel.md) we explain how to enable two factor authentication on the Service Panel.
 
 ## Forgotten Account Number
 

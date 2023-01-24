@@ -1,9 +1,13 @@
 ---
 myst:
   html_meta:
-    description: Magmi, the Magento mass importer, is an alternative product importer
-      offering better performance than the default. Here's how to unblock and access
-      it.
+    description: 'To unblock Magmi, the Magento mass importer, and offer secure access
+      to it for your users and/or developers, use our extensive documentation here. '
+    title: How to unblock and access Magmi for Hypernode?
+redirect_from:
+  - /en/hypernode/tools/unblocking-and-accessing-magmi-for-hypernode/
+  - /knowledgebase/unblocking-and-accessing-magmi-for-hypernode/
+  - /knowledgebase/securing-access-to-magmi/
 ---
 
 <!-- source: https://support.hypernode.com/en/hypernode/tools/unblocking-and-accessing-magmi-for-hypernode/ -->
@@ -25,7 +29,7 @@ To unblock Magmi and offer **secure** access to it for your users and/or develop
 
 Then pick one of the snippets that applies to your wishes and save it as `server.magmi` or in your `/data/web/nginx/magmi.conf` config file.
 
-*NB: If you don’t want to update IP addresses in all config files with every change of IP address, you can choose to use*\*[include files](https://support.hypernode.com/knowledgebase/create-reusable-config-for-custom-snippets/).\*
+*NB: If you don’t want to update IP addresses in all config files with every change of IP address, you can choose to use*\*[include files](../nginx/how-to-create-a-reusable-config-to-include-in-custom-snippets.md).\*
 
 ### Protect Your Magmi Installation With HTTP Basic Authentication
 
@@ -42,7 +46,7 @@ location ~* /magmi($|/) {
 }
 ```
 
-Don’t forget to [create a user](https://support.hypernode.com/knowledgebase/protect-a-directory-with-a-password-in-nginx/):
+Don’t forget to [create a user](../nginx/how-to-protect-your-magento-store-with-a-password-in-nginx.md):
 
 ```bash
 htpasswd -c /data/web/nginx/magmi.htpasswd exampleuser
@@ -85,7 +89,7 @@ location ~* /magmi($|/) {
 
 We strongly recommend enforcing HTTPS-only on Magmi because of the possibility of entering database passwords or transferring other sensitive information.
 
-If you haven’t [enforced HTTPS across your whole site](https://support.hypernode.com/knowledgebase/redirect-all-http-traffic-to-https-in-nginx/), you can enforce it for Magmi by adding the following line inside the `location` block:
+If you haven’t [enforced HTTPS across your whole site](../nginx/how-to-configure-your-shop-to-only-use-https.md), you can enforce it for Magmi by adding the following line inside the `location` block:
 
 ```nginx
 if ($scheme = http) {

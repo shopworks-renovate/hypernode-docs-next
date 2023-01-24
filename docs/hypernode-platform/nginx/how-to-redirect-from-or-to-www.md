@@ -1,9 +1,13 @@
 ---
 myst:
   html_meta:
-    description: Some shop owners prefer a domain name starting with www, others prefer
-      without. Many constructions are possible. Check out how to redirect from or
-      to WWW here.
+    description: 'Some shop owners prefer a domain name starting with www, others
+      prefer without. Read how to redirect from or to WWW in this article. '
+    title: How to redirect from or to www? | Hypernode
+redirect_from:
+  - /en/hypernode/nginx/how-to-redirect-from-or-to-www/
+  - /knowledgebase/redirect-from-or-to-www/
+  - /knowledgebase/redirect-specific-domains-urls-https/
 ---
 
 <!-- source: https://support.hypernode.com/en/hypernode/nginx/how-to-redirect-from-or-to-www/ -->
@@ -18,7 +22,7 @@ If you use the wwwizer servers, which are sometimes used when your domain is not
 
 For Service Panel customers only: when your domain is hosted at Hypernode, simply link it to your Hypernode through the [Service Panel](https://service.byte.nl/)
 
-More info can be found [on our page about setting your DNS](https://support.hypernode.com/knowledgebase/dns-settings-hypernode/).
+More info can be found [on our page about setting your DNS](../dns/how-to-manage-your-dns-settings-for-hypernode.md).
 
 ## Redirect From Apex to WWW
 

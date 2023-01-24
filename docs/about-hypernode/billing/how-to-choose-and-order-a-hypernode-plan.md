@@ -1,8 +1,12 @@
 ---
 myst:
   html_meta:
-    description: 'Hypernode is a unique e-commerce platform for your Magento or Shopware
-      shop. Read all about our different hosting solutions in this article. '
+    description: Find the perfect hosting plan for your online store with Hypernode.
+      Learn how to choose and order a Hypernode plan.
+    title: Choose and Order a Hypernode Plan | Hypernode
+redirect_from:
+  - /en/about/billing/how-to-choose-and-order-a-hypernode-plan/
+  - /knowledgebase/order-a-hypernode-plan/
 ---
 
 <!-- source: https://support.hypernode.com/en/about/billing/how-to-choose-and-order-a-hypernode-plan/ -->
@@ -72,5 +76,5 @@ You can order a Hypernode plan via our [order page](https://www.hypernode.com/ma
 - Make sure you pick a node with enough disk space for both your shop and your database.
 - Don’t use environment indicators like staging test, testing, dev or development:
   Without these indicators, you can easily change this node from a live to a test node without confusion or having to migrate to a server with another name.
-- Still developing a shop? Then select [a development environment first](https://support.hypernode.com/knowledgebase/development-plans-for-your-magento-shop/). When your Hypernode is [ready to go live](https://support.hypernode.com/knowledgebase/go-live-with-your-hypernode/) you can easily switch to a production node.
-- Use [this article to remove a Magento installation](https://support.hypernode.com/knowledgebase/remove-magento-installation/) in case you want to reuse an existing Hypernode or accidentally ordered a Hypernode with a preinstalled Magento on it.
+- Still developing a shop? Then select [a development environment first](../../hypernode-platform/tools/how-to-use-hypernode-development-plans.md). When your Hypernode is [ready to go live](../../best-practices/testing/how-to-go-live-with-your-hypernode.md) you can easily switch to a production node.
+- Use [this article to remove a Magento installation](../../ecommerce-applications/magento-2/how-to-remove-your-magento-2-x-installation.md) in case you want to reuse an existing Hypernode or accidentally ordered a Hypernode with a preinstalled Magento on it.

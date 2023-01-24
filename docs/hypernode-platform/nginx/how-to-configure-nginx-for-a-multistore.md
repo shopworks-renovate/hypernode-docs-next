@@ -1,8 +1,11 @@
 ---
 myst:
   html_meta:
-    description: Using domains or subdirectories for storefronts can be done by configuring
-      your Magento shop. Read about how to configure the store codes in Nginx here.
+    description: 'Read how to configure Nginx for a multistore in this in depth step-by-step
+      guide, starting with preparing your Magento shop. '
+    title: How to configure NGINX for a multistore? | Hypernode
+redirect_from:
+  - /en/hypernode/nginx/how-to-configure-nginx-for-a-multistore/
 ---
 
 <!-- source: https://support.hypernode.com/en/hypernode/nginx/how-to-configure-nginx-for-a-multistore/ -->
@@ -23,11 +26,11 @@ There is multiple scenarios possible to set up your Magento multistore. You can 
 - Using subdirectories (e.g. example.com/en/ and example.com/fr/ etc.)
 - Using a combination of different domains and subdirectories (e.g. example.com and example.net/en/ and example.net/fr/)
 
-Below we have provided the instructions on how to set up each of the scenarios within Nginx on your Hypernode. Please do note that in order to follow the instructions your Hypernode must have [Hypernode Managed Vhosts](https://support.hypernode.com/en/hypernode/nginx/hypernode-managed-vhosts) enabled. Furthermore we cannot guarantee that the instructions will work with all plugins and custom configurations since this has only been tested with the default Luma theme and without any customizations.
+Below we have provided the instructions on how to set up each of the scenarios within Nginx on your Hypernode. Please do note that in order to follow the instructions your Hypernode must have [Hypernode Managed Vhosts](hypernode-managed-vhosts.md) enabled. Furthermore, we cannot guarantee that the instructions will work with all plugins and custom configurations since this has only been tested with the default Luma theme and without any customizations.
 
 ### Using Different Domains
 
-When you opt for using different domains for each storefront then it will be relatively simple to setup Nginx for your multistore. Simply following the instructions on adding a new vhost with the instructions provided in the [Hypernode Managed Vhosts](https://support.hypernode.com/en/hypernode/nginx/hypernode-managed-vhosts) documentation. Once you have added the required vhost you need to add a `server.storecode` file to the specific vhost directory (`/data/web/nginx/example.com/`) with the following content:
+When you opt for using different domains for each storefront then it will be relatively simple to setup Nginx for your multistore. Simply following the instructions on adding a new vhost with the instructions provided in the [Hypernode Managed Vhosts](hypernode-managed-vhosts.md) documentation. Once you have added the required vhost you need to add a `server.storecode` file to the specific vhost directory (`/data/web/nginx/example.com/`) with the following content:
 
 ```nginx
 set $storecode "example_storecode";
@@ -121,7 +124,7 @@ Below you can find an example setup where all the above options have been combin
 +----+---------+------------------------------------+--------------------+
 ```
 
-First add the following vhosts using the information from the [Hypernode Managed Vhosts](https://support.hypernode.com/en/hypernode/nginx/hypernode-managed-vhosts) documentation.
+First add the following vhosts using the information from the [Hypernode Managed Vhosts](hypernode-managed-vhosts.md) documentation.
 
 - [www.example.com](http://www.example.com)
 - [www.example.nl](http://www.example.nl)

@@ -1,3 +1,13 @@
+---
+myst:
+  html_meta:
+    description: 'This guide will walk you through the process of setting up a continues
+      integration and delivery/deployment pipeline for a Magento 2 shop. '
+    title: How to deploy your application using Hypernode Deploy?
+redirect_from:
+  - /en/support/solutions/articles/48001219280-how-to-deploy-your-application-using-hypernode-deploy-v1/
+---
+
 <!-- source: https://support.hypernode.com/en/support/solutions/articles/48001219280-how-to-deploy-your-application-using-hypernode-deploy-v1/ -->
 
 # How to deploy your application using Hypernode Deploy v1
@@ -13,7 +23,7 @@ Before starting, make sure you have the following requirements setup correctly:
 - (Access to) a Hypernode
 - A Github account
 
-Make sure to [create a new SSH key pair](https://support.hypernode.com/en/hypernode/ssh/how-to-use-ssh-keys-on-hypernode) as a deployment key, and [add this to your Hypernode via the Control Panel](https://support.hypernode.com/en/services/control-panel/how-to-add-keys-to-the-ssh-keymanager). We'll use this SSH key in the deployment process to upload your application to the Hypernode.
+Make sure to [create a new SSH key pair](../ssh/how-to-use-ssh-keys-on-hypernode.md) as a deployment key, and [add this to your Hypernode via the Control Panel](../../services/control-panel/how-to-add-keys-to-the-ssh-key-manager.md). We'll use this SSH key in the deployment process to upload your application to the Hypernode.
 
 ## Configure your Deployment SSH key pair in Github
 

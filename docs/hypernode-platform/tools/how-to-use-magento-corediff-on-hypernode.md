@@ -1,9 +1,12 @@
 ---
 myst:
   html_meta:
-    description: Magento Corediff is a tool to find unauthorized modifications in
-      a Magento 1 or 2. As it's installed on all Hypernodes this helps protect and
-      secure your shop
+    description: 'Magento Corediff is an open source tool to quickly find unauthorized
+      modifications in a Magento install. Find out how to use Magento Corediff on
+      Hypernode. '
+    title: How to use Magento Corediff on Hypernode?
+redirect_from:
+  - /en/hypernode/tools/how-to-use-magento-corediff-on-hypernode/
 ---
 
 <!-- source: https://support.hypernode.com/en/hypernode/tools/how-to-use-magento-corediff-on-hypernode/ -->
@@ -36,4 +39,4 @@ In the example above, you can see that the file */data/web/magento2/app/Mage.php
 
 ## Cleaning up malicious code
 
-If you do end up finding malicious code, we advise you to follow our guide on recovering [a hacked magento shop](https://support.hypernode.com/en/best-practices/security/how-to-recover-a-hacked-magento-shop).
+If you do end up finding malicious code, we advise you to follow our guide on recovering [a hacked magento shop](../../best-practices/security/how-to-recover-a-hacked-magento-shop.md).

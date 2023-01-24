@@ -1,3 +1,13 @@
+---
+myst:
+  html_meta:
+    description: Learn how to resolve a 413 request error. Hypernode provides easy-to-follow
+      instructions and tips to help you identify and fix the problem quickly.
+    title: How to resolve a 413 request? | Hypernode
+redirect_from:
+  - /en/troubleshooting/performance/how-to-resolve-a-413-request-entity-too-large-error/
+---
+
 <!-- source: https://support.hypernode.com/en/troubleshooting/performance/how-to-resolve-a-413-request-entity-too-large-error/ -->
 
 # How to Resolve a 413 Request Entity Too Large Error

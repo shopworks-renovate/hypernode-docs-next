@@ -1,3 +1,13 @@
+---
+myst:
+  html_meta:
+    description: Learn how to create and download a backup of your Hypernode application
+      and database to your local machine. This can be done with SSH access.
+    title: Create and Download a Backup to Your Local Machine
+redirect_from:
+  - /en/support/solutions/articles/48001208755-how-to-create-a-backup-and-download-it-to-your-local-machine/
+---
+
 <!-- source: https://support.hypernode.com/en/support/solutions/articles/48001208755-how-to-create-a-backup-and-download-it-to-your-local-machine/ -->
 
 # How to Create a Backup and Download it to Your Local Machine
@@ -43,7 +53,7 @@ Now that you've created the backup(s) in **/data/web/backup_hypernode**, you can
 
 Follow these steps to download your backup via FTP:
 
-- First of all create a [FTP-user](https://support.hypernode.com/en/hypernode/ftp/how-to-configure-ftp-sftp-on-hypernode)(If you already have a FTP-user make sure it's able to access the backup directory)
+- First of all create a [FTP-user](../../hypernode-platform/ftp/how-to-configure-ftp-sftp-on-hypernode.md)(If you already have a FTP-user make sure it's able to access the backup directory)
   - set the **home-dir** to `/data/web/backup_hypernode`
   - Set your IP on the FTP whitelist
   - Login with your FTP-user on for example FileZilla

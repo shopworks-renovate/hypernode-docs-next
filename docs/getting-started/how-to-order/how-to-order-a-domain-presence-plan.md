@@ -3,6 +3,8 @@ myst:
   html_meta:
     description: 'Find out here about the two different Presence plans Hypernode offers
       and how to order them. '
+redirect_from:
+  - /en/getting-started/how-to-order/how-to-order-a-domain-presence-plan/
 ---
 
 <!-- source: https://support.hypernode.com/en/getting-started/how-to-order/how-to-order-a-domain-presence-plan/ -->
@@ -49,8 +51,8 @@ A complete list of extensions we offer can be found [here](https://www.byte.nl/d
 
 **How can I transfer my domain?**
 
-You can read a detailed description of the step-by-step plan [here](https://support.hypernode.com/en/services/domains/how-to-transfer-your-domain-to-hypernode).
+You can read a detailed description of the step-by-step plan [here](../../services/domain-procedures/how-to-use-domains-in-the-control-panel.md#transfer-an-existing-domain-to-hypernode).
 
 **How can I order a SSL certificate?**
 
-You can read a detailed description of the step-by-step plan [here](https://support.hypernode.com/en/hypernode/ssl/how-to-use-ssl-certificates-on-your-hypernode-when-ordered-via-byte-nl#Order-an-SSL-Certificate).
+You can read a detailed description of the step-by-step plan [here](../../hypernode-platform/ssl/how-to-use-ssl-certificates-on-your-hypernode-when-ordered-via-hypernode-nl.md#order-an-ssl-certificate).

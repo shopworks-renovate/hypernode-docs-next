@@ -1,3 +1,14 @@
+---
+myst:
+  html_meta:
+    description: Our primary focus is providing a fast and stable hosting platform.
+      In case of application related issues, we may ask you to reach out a third-party
+      developer.
+    title: Scope of Support | Hypernode
+redirect_from:
+  - /en/about/support/scope-of-support/
+---
+
 <!-- source: https://support.hypernode.com/en/about/support/scope-of-support/ -->
 
 # Scope of Support

@@ -1,9 +1,11 @@
 ---
 myst:
   html_meta:
-    description: HeidiSQL is a reliable tool designed for web developers using the
-      MySQL server, Microsoft SQL databases and PostgreSQL. Find here how to use it
-      on Hypernode.
+    description: Learn how to use HeidiSQL on Hypernode for efficient database management.
+      Easily browse, edit, and export data and tables with this reliable tool.
+    title: How to use HeidiSQL | Hypernode
+redirect_from:
+  - /en/best-practices/database/how-to-use-heidisql-on-hypernode/
 ---
 
 <!-- source: https://support.hypernode.com/en/best-practices/database/how-to-use-heidisql-on-hypernode/ -->
@@ -22,7 +24,7 @@ First, go to the [HeidiSQL homepage](http://www.heidisql.com/download.php) and u
 
 ## Add your IP to the allowlist.
 
-By default, your MySQL server is protected by a firewall. To connect remotely, you must [add your IP address to the allowlist](https://support.hypernode.com/en/hypernode/mysql/how-to-use-mysql-on-hypernode). You can find your IP address by typing in 'what is my IP' into Google.
+By default, your MySQL server is protected by a firewall. To connect remotely, you must [add your IP address to the allowlist](../../hypernode-platform/mysql/how-to-use-mysql-on-hypernode.md). You can find your IP address by typing in 'what is my IP' into Google.
 
 ## Configure HeidiSQL
 
@@ -42,7 +44,7 @@ Then configure HeidiSQL as follows:
 
 ## Create a database dump
 
-You should consider using [Magerun](https://support.hypernode.com/knowledgebase/using-mysql-on-hypernode/#Using_Magerun), but you could use HeidiSQL to create a database dump. Please note that making a dump through HeidiSQL may generate an inconsistent backup, as data may change while your backup is created.
+You should consider using [Magerun](../../hypernode-platform/mysql/how-to-use-mysql-on-hypernode.md#using-magerun), but you could use HeidiSQL to create a database dump. Please note that making a dump through HeidiSQL may generate an inconsistent backup, as data may change while your backup is created.
 
 1. Start HeidiSQL.
 1. Connect to your Hypernode.

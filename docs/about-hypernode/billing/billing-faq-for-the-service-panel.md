@@ -1,15 +1,18 @@
 ---
 myst:
   html_meta:
-    description: 'Read all frequently asked questions about billing and their answers
-      within this article. '
+    description: Learn about Hypernode's invoicing process and payment options for
+      customers using the legacy Service Panel.
+    title: FAQ on Service Panel Billing | Hypernode
+redirect_from:
+  - /en/about/billing/billing-faq-for-the-service-panel/
 ---
 
 <!-- source: https://support.hypernode.com/en/about/billing/billing-faq-for-the-service-panel/ -->
 
 # Billing FAQ for the Service Panel
 
-**Please note that this FAQ only applies to Service Panel customers that log in via [service.byte.nl](https://auth.byte.nl/). If you use the Control Panel and log in via [my.hypernode.com](https://auth.hypernode.com/) please [see this article](https://support.hypernode.com/en/about/billing/how-to-manage-your-billing-details-on-the-control-panel).**
+**Please note that this FAQ only applies to Service Panel customers that log in via [service.byte.nl](https://auth.byte.nl/). If you use the Control Panel and log in via [my.hypernode.com](https://auth.hypernode.com/) please [see this article](./billing-faq-for-the-control-panel.md).**
 
 Once a month, Hypernode sends an invoice to customers who placed an order in the previous month or whose domain names / plans renew in the following month. The invoices are sent digitally to the Contracting party on the first of the month. You can easily find all invoices that have been sent in the Service Panel.
 
@@ -43,7 +46,7 @@ The rules apply to individuals, not to companies. If possible, we therefore advi
 
 ## How Can I Edit My Account Details?
 
-For more information about editing your account details please see [this article](https://support.hypernode.com/a/solutions/articles/48000981375?lang=en).
+For more information about editing your account details please see [this article](../../services/service-panel/how-to-change-your-customer-details-and-other-questions.md).
 
 ## What Do I Pay Extra Costs For?
 

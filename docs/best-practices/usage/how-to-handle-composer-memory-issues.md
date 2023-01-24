@@ -1,3 +1,14 @@
+---
+myst:
+  html_meta:
+    description: Since composer is overall a heavy process it requires quite some
+      resources, specifically memory in this case. Here we discuss the causes and
+      workarounds.
+    title: How to handle composer memory issues? | Hypernode
+redirect_from:
+  - /en/support/solutions/articles/48001186354-how-to-handle-composer-memory-issues/
+---
+
 <!-- source: https://support.hypernode.com/en/support/solutions/articles/48001186354-how-to-handle-composer-memory-issues/ -->
 
 # How to Handle Composer Memory Issues
@@ -57,7 +68,7 @@ The Magento 2 crons are also quite heavy processes which will acquire their peac
 
 - Check the proceses which consume the most memory with htop
 
-It is possible you'll see quite some "queue:consumers" processes. These all together could require a lot of memory as well. After disabling the Magento crons you could [track down those processes and kill them](https://support.hypernode.com/en/troubleshooting/performance/how-to-identify-and-stop-long-running-processes#Long-Running-SSH-Process) to free the memory. Do note that those processes will be starting again next minute if the Magento crons are enabled.
+It is possible you'll see quite some "queue:consumers" processes. These all together could require a lot of memory as well. After disabling the Magento crons you could [track down those processes and kill them](../../troubleshooting/performance/how-to-identify-and-stop-long-running-processes.md#long-running-ssh-process) to free the memory. Do note that those processes will be starting again next minute if the Magento crons are enabled.
 
 Check your list of processes with htop to see if there are any other processes that are unnecessary claiming a lot of memory. This is something you'd have to think of carefully before just killing them, this can differ per server.
 

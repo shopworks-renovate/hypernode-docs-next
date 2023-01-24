@@ -1,3 +1,13 @@
+---
+myst:
+  html_meta:
+    description: 'Get the most out of your domain with Hypernode. Our extension-specific
+      info provides all up-to-date information. '
+    title: Extension Specific Info per Domain | Hypernode
+redirect_from:
+  - /en/services/domains/extension-specific-info-per-domain/
+---
+
 <!-- source: https://support.hypernode.com/en/services/domains/extension-specific-info-per-domain/ -->
 
 # Extension Specific Info per Domain

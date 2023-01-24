@@ -14,7 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     container: quay.io/hypernode/deploy:3-php8.1-node18
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      # Declares the repository safe and not under dubious ownership.
+      - name: Add repository to git safe directories
+        run: git config --global --add safe.directory $GITHUB_WORKSPACE
       - uses: actions/cache@v2
         with:
           path: /tmp/composer-cache
@@ -22,7 +27,10 @@ jobs:
       - uses: webfactory/ssh-agent@v0.5.4
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-      - run: apt update && apt install -y python3 virtualenv
+      - name: Set env for production build
+        if: github.ref == 'refs/heads/master'
+        run: |
+          echo "DOCS_BASE_URL=https://docs.hypernode.com/" >> $GITHUB_ENV
       - run: hypernode-deploy build -vvv
       - name: archive production artifacts
         uses: actions/upload-artifact@v3
@@ -33,6 +41,9 @@ jobs:
   deploy_acceptance:
     needs: build
     runs-on: ubuntu-latest
+    environment:
+      name: acceptance
+      url: ${{ steps.get_brancher_hostname.outputs.BRANCHER_URL }}
     if: github.ref != 'refs/heads/master'
     container: quay.io/hypernode/deploy:3-php8.1-node18
     steps:
@@ -47,20 +58,24 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - run: mkdir -p $HOME/.ssh
       - name: deploy to acceptance
-        run: hypernode-deploy deploy acceptance -vvv
+        run: hypernode-deploy deploy acceptance -vvv --reuse-brancher
         env:
           HYPERNODE_API_TOKEN: ${{ secrets.HYPERNODE_API_TOKEN }}
       - name: Get brancher hostname
-        run: echo "BRANCHER_HOSTNAME=$(jq .hostnames[0] deployment-report.json -r)" >> $GITHUB_ENV
+        id: get_brancher_hostname
+        run: echo "BRANCHER_URL=https://$(jq .hostnames[0] deployment-report.json -r)" >> $GITHUB_OUTPUT
       - name: Comment hostname on PR
         uses: thollander/actions-comment-pull-request@v1
         with:
           message: |
-            Acceptance server is available at https://${{ env.BRANCHER_HOSTNAME }}
+            Acceptance server is available at ${{ steps.get_brancher_hostname.outputs.BRANCHER_URL }}
 
   deploy_production:
     needs: build
     runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://docs.hypernode.io
     if: github.ref == 'refs/heads/master'
     container: quay.io/hypernode/deploy:3-php8.1-node18
     steps:

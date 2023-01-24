@@ -1,9 +1,12 @@
 ---
 myst:
   html_meta:
-    description: This article describes how to install Akeneo 4 on your Hypernode.
-      Installing Akeneo 4 can be done by using our Pre-Install or you can install
-      Akeneo 4 manually.
+    description: Install Akeneo 4 on a separate Hypernode instance or on the same
+      Hypernode as your Magento or Shopware installation. Learn more!
+    title: How to install Akeneo 4 on Hypernode?
+redirect_from:
+  - /en/ecommerce/akeneo/how-to-install-akeneo-4-on-hypernode/
+  - /knowledgebase/installing-akeneo-4/
 ---
 
 <!-- source: https://support.hypernode.com/en/ecommerce/akeneo/how-to-install-akeneo-4-on-hypernode/ -->
@@ -14,7 +17,7 @@ Akeneo 4 preferably requires a Hypernode Pelican L, Falcon M, Eagle M hosting pl
 
 ## Enable managed_vhosts
 
-All new Hypernodes (from April 2020) will automatically be booted with [Hypernode Managed Vhosts](https://support.hypernode.com/en/hypernode/nginx/hypernode-managed-vhosts). If you already have an older Hypernode, then you need to enable Hypernode Managed Vhosts by running the following command:
+All new Hypernodes (from April 2020) will automatically be booted with [Hypernode Managed Vhosts](../../hypernode-platform/nginx/hypernode-managed-vhosts.md). If you already have an older Hypernode, then you need to enable Hypernode Managed Vhosts by running the following command:
 
 ```bash
 hypernode-systemctl settings managed_vhosts_enabled True
@@ -65,7 +68,7 @@ hypernode-systemctl settings mysql_version 8.0
 
 ## Upgrade Your PHP Version to 7.3
 
-Before installing Akeneo, make sure your [PHP version](https://support.hypernode.com/knowledgebase/php-versions-magento-shop-hypernode/#How_to_change_a_PHP_version_on_Hypernode) is changed to `PHP 7.3`.
+Before installing Akeneo, make sure your [PHP version](../../hypernode-platform/php/supported-php-versions-and-how-to-change-them-on-hypernode.md#changing-the-php-version-you-use-on-hypernode) is changed to `PHP 7.3`.
 
 ```bash
 hypernode-systemctl settings php_version 7.3

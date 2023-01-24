@@ -1,3 +1,21 @@
+---
+myst:
+  html_meta:
+    description: Welcome to Hypernode Docs! Here you find the extensive Support Documentation
+      of Hypernode. All you need to know about Hypernode in one place.
+    title: 'Hypernode Support Documentation | Hypernode '
+redirect_from:
+  - /en/
+  - /en/support/
+  - /en/support/login/
+  - /en/support/solutions/
+  - /en/ecommerce/
+  - /en/getting-started/
+  - /en/hypernode-platform/
+  - /en/services/
+  - /en/troubleshooting/
+---
+
 # Welcome to Hypernode Docs
 
 ```{toctree}

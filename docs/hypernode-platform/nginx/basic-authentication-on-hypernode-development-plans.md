@@ -1,8 +1,12 @@
 ---
 myst:
   html_meta:
-    description: 'Development Hypernodes are by default configured to offer a Basic
-      Authentication challenge to all visitors. Read all about it in this article. '
+    description: 'Development Hypernodes are configured to offer a Basic Authentication
+      challenge to all visitors. Read everything about this basic Authentication. '
+    title: Enable basic authentication on Hypernode development plans
+redirect_from:
+  - /en/hypernode/nginx/basic-authentication-on-hypernode-development-plans/
+  - /knowledgebase/basic-authentication-on-development-plans/
 ---
 
 <!-- source: https://support.hypernode.com/en/hypernode/nginx/basic-authentication-on-hypernode-development-plans/ -->
@@ -42,7 +46,7 @@ If your Development node lacks this file, or if your whitelist configuration onl
 
 To whitelist an IP address from basic authentication, you can add it to the geo statement in the whitelist file. You may also use an IP range, in [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing). Please note you cannot use hostnames in the whitelist.
 
-To find out the IP's that need to be whitelisted, please contact the external service provider, or [check your access logs](https://support.hypernode.com/en/troubleshooting/performance/general-troubleshooting) to see what IP's are accessing the website.
+To find out the IP's that need to be whitelisted, please contact the external service provider, or [check your access logs](../../troubleshooting/performance/general-troubleshooting.md) to see what IP's are accessing the website.
 
 ### Whitelist a User Agent
 
@@ -73,4 +77,4 @@ Please note that Google and Bing are still blocked when everyone else is allowed
 ## Troubleshooting
 
 - Google Pagespeed analysis uses the Google bot user agent and can therefore not be used on development nodes.
-- In some cases, particularly if you have not yet enabled [Hypernode Managed Vhosts](https://support.hypernode.com/nginx-configuration/hypernode-managed-vhosts/), it’s possible the Basic Authentication blocks the Let’s Encrypt validation server. If you wish to make use of Let’s Encrypt on your development Hypernode, you should add the ‘letsencrypt’ user agent to the whitelist file.
+- In some cases, particularly if you have not yet enabled [Hypernode Managed Vhosts](../../hypernode-platform/nginx/hypernode-managed-vhosts.md), it’s possible the Basic Authentication blocks the Let’s Encrypt validation server. If you wish to make use of Let’s Encrypt on your development Hypernode, you should add the ‘letsencrypt’ user agent to the whitelist file.

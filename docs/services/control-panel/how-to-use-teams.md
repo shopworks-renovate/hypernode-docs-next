@@ -1,8 +1,11 @@
 ---
 myst:
   html_meta:
-    description: 'In this article, we explain how to manage teams on the Hypernode
-      control panel. You can invite developers, merchants or an agency. '
+    description: Learn how to use Hypernode's Control Panel to create and manage Teams.
+      Allocate resources and roles, and quickly add new members with ease.
+    title: How to use teams? | Control Panel | Hypernode
+redirect_from:
+  - /en/services/control-panel/how-to-use-teams/
 ---
 
 <!-- source: https://support.hypernode.com/en/services/control-panel/how-to-use-teams/ -->
@@ -43,7 +46,7 @@ There are two ways to add a Hypernode to a team:
 
 ## Manage Users in a Team
 
-There are three different roles you can assign to members to members of your team. Each role is defined by a set of permissions. The permissions, based on the specific role, apply to all Hypernodes in a team. This also includes the SSL certificates that have been linked to the Hypernodes in the team. For detailed information on what those roles are and which permissions they have, please click [here](https://support.hypernode.com/en/services/control-panel/user-roles-and-permissions-on-hypernodes-control-panel).
+There are three different roles you can assign to members to members of your team. Each role is defined by a set of permissions. The permissions, based on the specific role, apply to all Hypernodes in a team. This also includes the SSL certificates that have been linked to the Hypernodes in the team. For detailed information on what those roles are and which permissions they have, please click [here](user-roles-and-permissions-on-hypernodes-control-panel.md).
 
 ### Inviting a Member
 

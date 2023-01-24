@@ -1,8 +1,12 @@
 ---
 myst:
   html_meta:
-    description: The WSDL cache is used for API soap calls to Magento. Read here how
-      to flush it in case of corruptions causing errors on all API calls to Magento.
+    description: The WSDL cache is used for API soap calls to Magento. In some very
+      rare cases this cache can get corrupted, causing errors on all API calls to
+      Magento.
+    title: How to flush the WSDL cache in Magento 1? | Hypernode
+redirect_from:
+  - /en/ecommerce/magento-1/how-to-flush-the-wsdl-cache/
 ---
 
 <!-- source: https://support.hypernode.com/en/ecommerce/magento-1/how-to-flush-the-wsdl-cache/ -->
@@ -21,4 +25,4 @@ This can be resolved in some cases by removing the WSDL cache file so this file 
 rm /tmp/wsdl-*
 ```
 
-**NB: This does not solve the following error: `SOAP error: Parsing WSDL: Couldn’t load from "": failed to load external entity.` This error is related to [Magento not being able to access it’s own API](https://support.hypernode.com/knowledgebase/soap-error-parsing-wsdl-couldnt-load-failed-load-external-entity/)**
+**NB: This does not solve the following error: `SOAP error: Parsing WSDL: Couldn’t load from "": failed to load external entity.` This error is related to [Magento not being able to access its own API](../../ecommerce-applications/magento-1/how-to-fix-soap-error-parsing-wsdl-couldnt-load-from-failed-to-load-external-entity.md)**

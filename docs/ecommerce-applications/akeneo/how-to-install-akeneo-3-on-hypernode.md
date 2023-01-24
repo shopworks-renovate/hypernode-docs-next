@@ -1,9 +1,11 @@
 ---
 myst:
   html_meta:
-    description: This article describes how to install Akeneo 3 on your Hypernode.
-      Installing Akeneo 3 can be done by using our Pre-Install or you can install
-      Akeneo 3 manually.
+    description: Install Akeneo 3 on a separate Hypernode instance or on the same
+      Hypernode as your Magento or Shopware installation. Learn more!
+    title: How to install Akeneo 3 on Hypernode?
+redirect_from:
+  - /en/ecommerce/akeneo/how-to-install-akeneo-3-on-hypernode/
 ---
 
 <!-- source: https://support.hypernode.com/en/ecommerce/akeneo/how-to-install-akeneo-3-on-hypernode/ -->
@@ -14,7 +16,7 @@ Akeneo 3 preferably requires a Hypernode Pelican L, Falcon M, Eagle M hosting pl
 
 ## Enable managed_vhosts
 
-All new Hypernodes (from April 2020) will automatically be booted with [Hypernode Managed Vhosts](https://support.hypernode.com/en/hypernode/nginx/hypernode-managed-vhosts). If you already have an older Hypernode, then you need to enable Hypernode Managed Vhosts by running the following command:
+All new Hypernodes (from April 2020) will automatically be booted with [Hypernode Managed Vhosts](../../hypernode-platform/nginx/hypernode-managed-vhosts.md). If you already have an older Hypernode, then you need to enable Hypernode Managed Vhosts by running the following command:
 
 ```bash
 hypernode-systemctl settings managed_vhosts_enabled True
@@ -38,7 +40,7 @@ hypernode-systemctl settings mysql_version 5.7
 
 ## Upgrade Your PHP Version to 7.2
 
-Before installing Akeneo, make sure your [PHP version](https://support.hypernode.com/knowledgebase/php-versions-magento-shop-hypernode/#How_to_change_a_PHP_version_on_Hypernode) is changed to `PHP 7.2`.
+Before installing Akeneo, make sure your [PHP version](../../hypernode-platform/php/supported-php-versions-and-how-to-change-them-on-hypernode.md#changing-the-php-version-you-use-on-hypernode) is changed to `PHP 7.2`.
 
 ```bash
 hypernode-systemctl settings php_version 7.2
@@ -131,7 +133,7 @@ tar zvxf akeneo.tar.gz -C ~/akeneo/
 
 #### Setting up Akeneo
 
-First change the MySQL username and password in `~/akeneo/pim-community-standard/app/config/parameters.yml` to your own [credentials](https://support.hypernode.com/knowledgebase/using-mysql-on-hypernode/#Finding_your_credentials).
+First change the MySQL username and password in `~/akeneo/pim-community-standard/app/config/parameters.yml` to your own [credentials](../../hypernode-platform/mysql/how-to-use-mysql-on-hypernode.md#finding-your-credentials).
 
 ```bash
 mysql -e "create database akeneo_pim;"

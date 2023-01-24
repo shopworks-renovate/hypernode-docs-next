@@ -1,9 +1,11 @@
 ---
 myst:
   html_meta:
-    description: This article explains the importance of a Hypernode certification
-      for Magento developers and retailers and how you can become a Hypernode Certified
-      Agency.
+    description: Our Certification program assesses Magento agencies on output, security,
+      processes, and requires thorough knowledge of Magento. Learn more!
+    title: Hypernode Certification for Magento Agencies | Hypernode
+redirect_from:
+  - /en/about/about-us/hypernode-certification-for-agencies/
 ---
 
 <!-- source: https://support.hypernode.com/en/about/about-us/hypernode-certification-for-agencies/ -->

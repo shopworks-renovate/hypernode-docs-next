@@ -1,8 +1,11 @@
 ---
 myst:
   html_meta:
-    description: A staging environment is very useful to test your shop. In this article
-      we explain how to set up a staging environment on Hypernode for a Shopware shop.
+    description: This article explains how you can set up a staging environment on
+      Hypernode for a Shopware 5 shop. Learn everything you need to know!
+    title: How to use a staging environment with Shopware 5?
+redirect_from:
+  - /en/ecommerce/shopware/how-to-use-a-basic-staging-environment-with-shopware/
 ---
 
 <!-- source: https://support.hypernode.com/en/ecommerce/shopware/how-to-use-a-basic-staging-environment-with-shopware/ -->
@@ -19,7 +22,7 @@ This article explains how you can set up a staging environment on Hypernode for 
 
 Keep in mind:
 
-- Your staging environment **shares resources** (disk, CPU, mem) with your production site. If you want to do things such as automated load tests, it is recommended to order a [development plan](https://support.hypernode.com/knowledgebase/development-plans-for-your-magento-shop/) instead, so your production site will not be affected.
+- Your staging environment **shares resources** (disk, CPU, mem) with your production site. If you want to do things such as automated load tests, it is recommended to order a [development plan](../../hypernode-platform/tools/how-to-use-hypernode-development-plans.md) instead, so your production site will not be affected.
 - We don't recommend creating hard links from your production media folder to your staging media folder as our back up mechanism does not cope well with hard links.
 
 ## How to Make a Copy of a Live Site

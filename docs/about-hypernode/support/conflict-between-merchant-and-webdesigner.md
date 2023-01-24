@@ -1,8 +1,12 @@
 ---
 myst:
   html_meta:
-    description: What to do when a conflict arises between a Registrant (domain name
-      holder) and the web designer / developer (Contractor and / or Technical administrator)?
+    description: If a conflict arises between a merchant and a web designer/developer,
+      Hypernode is unable to mediate the situation.Please reach out to Hypernode for
+      advice.
+    title: Handling Merchant and Web Designer Conflicts | Hypernode
+redirect_from:
+  - /en/about/support/conflict-between-merchant-and-webdesigner/
 ---
 
 <!-- source: https://support.hypernode.com/en/about/support/conflict-between-merchant-and-webdesigner/ -->
@@ -20,7 +24,7 @@ When a conflict arises between a domain name holder and a developer, there are t
 
 When multiple parties are involved in the division of roles of a domain name / package, it can happen that multiple accounts have different roles. This is due to legal considerations, but also because you want to give a technical party access to your site if you are not that technical yourself.
 
-Please see [this article](https://support.hypernode.com/en/hypernode/tools/what-are-the-different-roles-in-the-service-panel-and-what-is-the-difference-between-them) for more information about the different roles in the Service Panel.
+Please see [this article](../../services/service-panel/different-service-panel-scenarios.md) for more information about the different roles in the Service Panel.
 
 ## Different Roles in a Conflict
 

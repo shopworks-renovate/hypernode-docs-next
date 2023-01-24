@@ -1,8 +1,11 @@
 ---
 myst:
   html_meta:
-    description: RabbitMQ is message-queueing software where queues running in the
-      background can be defined. Read here how to use it on Hypernode.
+    description: Use RabbitMQ to run resource-intensive tasks in the background on
+      Hypernode. Learn how to enable and access RabbitMQ on Hypernode.
+    title: How to Run RabbitMQ | Hypernode
+redirect_from:
+  - /en/best-practices/database/how-to-run-rabbitmq-on-hypernode/
 ---
 
 <!-- source: https://support.hypernode.com/en/best-practices/database/how-to-run-rabbitmq-on-hypernode/ -->
@@ -27,7 +30,7 @@ The main idea behind queues is to avoid doing a resource-intensive task immediat
 
 ## Enabling RabbitMQ
 
-Enabling RabbitMQ can be done via de [commandline tool](https://support.hypernode.com/knowledgebase/hypernode-systemctl-cli-tool/) or the [Hypernode API](https://community.hypernode.io/#/Documentation/hypernode-api/README).
+Enabling RabbitMQ can be done via de [commandline tool](../../hypernode-platform/tools/how-to-use-the-hypernode-systemctl-cli-tool.md) or the [Hypernode API](https://community.hypernode.io/#/Documentation/hypernode-api/README).
 
 As an app user you enable RabbitMQ this way:
 

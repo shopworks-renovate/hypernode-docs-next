@@ -1,8 +1,11 @@
 ---
 myst:
   html_meta:
-    description: 'Using Nginx instead of Apache increases performance and allows more
-      visitors. Read here how to use Nginx on Hypernode. '
+    description: 'At Hypernode we’ve taken great care to tweak the Nginx server for
+      optimal performance and usability. Find out how to use Nginx. '
+    title: How to use NGINX? | Hypernode
+redirect_from:
+  - /en/hypernode/nginx/how-to-use-nginx/
 ---
 
 <!-- source: https://support.hypernode.com/en/hypernode/nginx/how-to-use-nginx/ -->
@@ -54,11 +57,11 @@ Tips:
 
 Some typical scenarios are explained below:
 
-- [How to block/allow IP-addresses in Nginx](https://support.hypernode.com/en/hypernode/nginx/how-to-block-allow-ip-addresses-in-nginx)
-- [How to Protect Your Magento Store With a Password in Nginx](https://support.hypernode.com/en/hypernode/nginx/how-to-protect-your-magento-store-with-a-password-in-nginx)
-- [How to Set the Server Name in Nginx](https://support.hypernode.com/en/hypernode/nginx/how-to-set-the-server-name-in-nginx)
+- [How to block/allow IP-addresses in Nginx](how-to-block-allow-ip-addresses-in-nginx.md)
+- [How to Protect Your Magento Store With a Password in Nginx](how-to-protect-your-magento-store-with-a-password-in-nginx.md)
+- [How to Set the Server Name in Nginx](how-to-set-the-server-name-in-nginx.md)
 
-More specific Nginx configurations can be found in [the category page about Nginx](https://support.hypernode.com/en/hypernode/nginx/).
+More specific Nginx configurations can be found in [the category page about Nginx](../nginx.md).
 
 ## Modern Logging
 

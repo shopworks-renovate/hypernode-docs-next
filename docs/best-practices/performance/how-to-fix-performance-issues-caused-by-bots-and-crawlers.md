@@ -1,8 +1,13 @@
 ---
 myst:
   html_meta:
-    description: Excessive bot traffic is the number one reason for bad Magento performance.
-      Read here how to fix such performance issues on Hypernode.
+    description: Learn by understanding bot traffic and layering navigation, and following
+      the four recommended measures to resolve the issue for better performance and
+      SEO.
+    title: Fix performance issues caused by bots and crawlers | Hypernode
+redirect_from:
+  - /en/best-practices/performance/how-to-fix-performance-issues-caused-by-bots-and-crawlers/
+  - /knowledgebase/fixing-bad-performance-caused-by-search-engines/
 ---
 
 <!-- source: https://support.hypernode.com/en/best-practices/performance/how-to-fix-performance-issues-caused-by-bots-and-crawlers/ -->
@@ -30,7 +35,7 @@ $ pnl --yesterday --php --bots --fields ua | sort | uniq -c | sort -n
 
 ```
 
-In this example, there were almost 4K Bingbot pageviews, 2K Google pageviews and almost 13K MegaIndex pageviews. So you could eliminate a large chunk of load by blocking MegaIndex (a shady crawler whose benefits to you are disputable). [Here](https://support.hypernode.com/knowledgebase/blocking-user-agents-referrers/) are instructions on blocking specific bots on Hypernode.
+In this example, there were almost 4K Bingbot pageviews, 2K Google pageviews and almost 13K MegaIndex pageviews. So you could eliminate a large chunk of load by blocking MegaIndex (a shady crawler whose benefits to you are disputable). [Here](../../hypernode-platform/nginx/how-to-block-user-agents-and-referrer-sites.md) are instructions on blocking specific bots on Hypernode.
 
 # How to Block Bot Access to Layered Navigation
 
@@ -86,5 +91,5 @@ Make sure all URLs in the layered navigation have “nofollow” in its links. H
 
 # Additional Information
 
-- [How to Block Specific Countries From Accessing Your Shop](https://support.hypernode.com/knowledgebase/block-your-site-for-specific-countries/)
-- [How to Resolve 429 Too Many Requests](https://support.hypernode.com/knowledgebase/resolving-429-many-requests/)
+- [How to Block Specific Countries From Accessing Your Shop](../../hypernode-platform/nginx/how-to-block-your-webshop-for-specific-countries.md)
+- [How to Resolve 429 Too Many Requests](../../hypernode-platform/nginx/how-to-resolve-rate-limited-requests-429-too-many-requests.md)

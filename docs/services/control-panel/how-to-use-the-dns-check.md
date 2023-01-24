@@ -1,8 +1,11 @@
 ---
 myst:
   html_meta:
-    description: 'Use the DNS check in the Control Panel to ensure your externally
-      hosted domain is properly configured to send email via Hypernode. '
+    description: Learn how to check the DNS settings of your Hypernode with our DNS
+      Check. This guide shows how to use the DNS Check in our Control Panel.
+    title: How to use the DNS Check? | Control Panel | Hypernode
+redirect_from:
+  - /en/services/control-panel/how-to-use-the-dns-check/
 ---
 
 <!-- source: https://support.hypernode.com/en/services/control-panel/how-to-use-the-dns-check/ -->
@@ -53,7 +56,7 @@ This is the TransIP SPF record. If you already have an SPF record, you need to a
 | **Label** | **Type** | **TTL** | **Content**                                  |
 | @         | TXT      | 3600    | v=spf1 include:spf.example.hypernode.io ~all |
 
-Please see [this article for how to set up your SPF records for Hypernode](https://support.hypernode.com/en/hypernode/dns/how-to-set-up-your-spf-records-for-hypernode).
+Please see [this article for how to set up your SPF records for Hypernode](../../hypernode-platform/dns/how-to-set-up-your-spf-records-for-hypernode.md).
 
 ## Web Records
 
@@ -101,4 +104,4 @@ The DNS Check verifies whether the Hypernode is reachable via the URL you entere
 
 ## Using Cloudflare or Other CDN
 
-If you are using Cloudflare or another CDN type product, we cannot check your records with our DNS Check. Use our [Support Documentation](https://support.hypernode.com/en/hypernode/dns/how-to-manage-your-dns-settings-for-hypernode#Manage-your-own-DNS%3A-CNAME-for-the-www-record)for managing your DNS settings for your Hypernode to make sure you have your DNS settings set up correctly.
+If you are using Cloudflare or another CDN type product, we cannot check your records with our DNS Check. Use our [Support Documentation](../../hypernode-platform/dns/how-to-manage-your-dns-settings-for-hypernode.md#option-2-manage-an-external-dns-by-pointing-your-domain-to-hypernode-by-using-cname-and-not-an-a-record)for managing your DNS settings for your Hypernode to make sure you have your DNS settings set up correctly.

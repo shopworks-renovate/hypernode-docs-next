@@ -2,14 +2,17 @@
 myst:
   html_meta:
     description: Hypernode offers a staging environment so it can be used as a sandbox
-      for your Akeneo PIM project.
+      for your Akeneo 4 or 5 PIM project. Learn more in this article!
+    title: How to use a basic staging environment with Akeneo 4 and 5?
+redirect_from:
+  - /en/support/solutions/articles/48001183489-how-to-use-a-basic-staging-environment-with-akeneo-4-and-5/
 ---
 
 <!-- source: https://support.hypernode.com/en/support/solutions/articles/48001183489-how-to-use-a-basic-staging-environment-with-akeneo-4-and-5/ -->
 
 # How To Use A Basic Staging Environment with Akeneo 4 and 5
 
-Hypernode offers a staging environment so it can be used as a sandbox for your Akeneo PIM project. Please keep in mind that your staging environment for Akeneo shares resources (disk, CPU, memory) with your production environment. It’s also possible to order a [development plan](https://support.hypernode.com/knowledgebase/development-plans-for-your-magento-shop/) instead, so your production environment will not be affected.
+Hypernode offers a staging environment so it can be used as a sandbox for your Akeneo PIM project. Please keep in mind that your staging environment for Akeneo shares resources (disk, CPU, memory) with your production environment. It’s also possible to order a [development plan](../../hypernode-platform/tools/how-to-use-hypernode-development-plans.md) instead, so your production environment will not be affected.
 
 ## Create a vhost
 

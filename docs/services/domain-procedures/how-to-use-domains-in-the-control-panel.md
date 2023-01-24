@@ -1,3 +1,13 @@
+---
+myst:
+  html_meta:
+    description: Learn how to use domains in the Hypernode Control Panel. Get detailed
+      instructions on how to add, delete, and manage domains in your environment.
+    title: How to use Domains in the Control Panel? | Hypernode
+redirect_from:
+  - /en/services/domains/how-to-use-domains-in-the-control-panel/
+---
+
 <!-- source: https://support.hypernode.com/en/services/domains/how-to-use-domains-in-the-control-panel/ -->
 
 # How to Use Domains in the Control Panel

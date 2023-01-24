@@ -1,8 +1,13 @@
 ---
 myst:
   html_meta:
-    description: 'All emails send from a Hypernode are routed through a central outgoing
-      email platform that filters spam and infected emails. Read here about its policies. '
+    description: Our mail platform handles rate limiting and enforces a strict limit
+      on your outgoing email flow. If you exceed the limits, your email will be delivered
+      at a later time.
+    title: Policy for sending emails on Hypernodes
+redirect_from:
+  - /en/hypernode/email/policy-for-sending-email-on-hypernode/
+  - /knowledgebase/hypernode-email-policy/
 ---
 
 <!-- source: https://support.hypernode.com/en/hypernode/email/policy-for-sending-email-on-hypernode/ -->

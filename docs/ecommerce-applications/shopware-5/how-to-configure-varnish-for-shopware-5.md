@@ -2,7 +2,11 @@
 myst:
   html_meta:
     description: Shopware 5 applications can greatly benefit from Varnish caching.
-      On the client side, pages load faster, while on the server side, the load decreases.
+      Hypernode supports Varnish as a caching layer and configuration is actually
+      quite simple.
+    title: How to configure Varnish for Shopware 5? | Hypernode
+redirect_from:
+  - /en/support/solutions/articles/48001207016-how-to-configure-varnish-for-shopware-5/
 ---
 
 <!-- source: https://support.hypernode.com/en/support/solutions/articles/48001207016-how-to-configure-varnish-for-shopware-5/ -->
@@ -15,13 +19,13 @@ The Hypernode platform supports Varnish as a caching layer and configuration is 
 
 ## Step One: Enable Varnish on the Hypernode
 
-Varnish can be enabled with a simple command using the [hypernode-systemctl CLI](https://support.hypernode.com/en/hypernode/tools/how-to-use-the-hypernode-systemctl-cli-tool):
+Varnish can be enabled with a simple command using the [hypernode-systemctl CLI](../../hypernode-platform/tools/how-to-use-the-hypernode-systemctl-cli-tool.md):
 
 `hypernode-systemctl settings varnish_enabled True`
 
 ## Step Two: Enable Varnish for NGINX Vhost
 
-The [hypernode-manage-vhosts](https://support.hypernode.com/en/hypernode/nginx/hypernode-managed-vhosts) (HMV) config allows you to enable varnish for every vhost individually. So if you for example have a domain example.com. You should create 2 vhosts:
+The [hypernode-manage-vhosts](../../hypernode-platform/nginx/hypernode-managed-vhosts) (HMV) config allows you to enable varnish for every vhost individually. So if you for example have a domain example.com. You should create 2 vhosts:
 
 - example.com
 - [www.example.com](http://www.example.com)

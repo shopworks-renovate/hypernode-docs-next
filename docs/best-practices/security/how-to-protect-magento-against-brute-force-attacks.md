@@ -1,3 +1,14 @@
+---
+myst:
+  html_meta:
+    description: Some Magento sections are interesting targets for hackers. This article
+      explains how to protect your shop from malicious attacks.
+    title: How to protect your Magento shop against brute force attacks?
+redirect_from:
+  - /en/best-practices/security/how-to-protect-magento-against-brute-force-attacks/
+  - /knowledgebase/how-to-protect-your-magento-store-against-brute-force/
+---
+
 <!-- source: https://support.hypernode.com/en/best-practices/security/how-to-protect-magento-against-brute-force-attacks/ -->
 
 # How to Protect Magento Against Brute Force Attacks

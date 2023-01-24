@@ -1,7 +1,11 @@
 ---
 myst:
   html_meta:
-    description: Which hosting plans and pricing does Hypernode offer.
+    description: Learn about Hypernode's Managed Cloud Hosting and Managed Dedicated
+      Hosting and its pricing. Prices start at €109 per month.
+    title: Hypernode Pricing & Plans | Hypernode
+redirect_from:
+  - /en/support/solutions/articles/48001228422-hypernode-pricing-plans/
 ---
 
 <!-- source: https://support.hypernode.com/en/support/solutions/articles/48001228422-hypernode-pricing-plans/ -->
@@ -26,7 +30,7 @@ Cloud hosting is a large group of physical servers tied together by a virtual la
 
 ### Pricing
 
-Hypernode Cloud Hosting Plans start at € 139,- a month. The pricing is based on your needed resources and your chosen cloud provider. At Hypernode, [we offer three different providers for your cloud hosting](https://support.hypernode.com/en/about/about-us/which-cloud-providers-do-we-use): Combell OpenStack (**Falcon Plans**), DigitalOcean (**Pelican Plans**), and Amazon Web Services (**Eagle Plans**).
+Hypernode Cloud Hosting Plans start at € 139,- a month. The pricing is based on your needed resources and your chosen cloud provider. At Hypernode, [we offer three different providers for your cloud hosting](which-cloud-providers-do-we-use.md): Combell OpenStack (**Falcon Plans**), DigitalOcean (**Pelican Plans**), and Amazon Web Services (**Eagle Plans**).
 
 [An overview of our Cloud hosting plans can be found here.](https://www.hypernode.com/en/cloud-hosting/#plans)
 

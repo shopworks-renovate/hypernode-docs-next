@@ -2,8 +2,10 @@
 myst:
   html_meta:
     description: 'Supervisor enables you to use programs that need to run all the
-      time on your Hypernode. Supervisor watches your programs and restarts them if
-      they might fail. '
+      time on your Hypernode. Discover how to use supervisor step-by-step. '
+    title: How to use Supervisor? | Hypernode
+redirect_from:
+  - /en/hypernode/tools/how-to-use-supervisor/
 ---
 
 <!-- source: https://support.hypernode.com/en/hypernode/tools/how-to-use-supervisor/ -->

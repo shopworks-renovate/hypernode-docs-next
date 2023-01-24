@@ -1,15 +1,18 @@
 ---
 myst:
   html_meta:
-    description: 'Administrative changes can be done through the Service Panel (or
-      via a letter) due to security reasons. Read how to change customer details here. '
+    description: Manage your Hypernode account information quickly and easily. Change
+      your email address, password or payment details in the Service Panel.
+    title: Change your account details? | Service Panel | Hypernode
+redirect_from:
+  - /en/about/billing/how-to-change-your-customer-details-and-other-questions/
 ---
 
 <!-- source: https://support.hypernode.com/en/about/billing/how-to-change-your-customer-details-and-other-questions/ -->
 
 # How to Change your Customer Details and Other Questions
 
-\*\*Please note that this only applies to Service Panel users who log in via service.byte.nl. Please see [this category](https://support.hypernode.com/en/services/control-panel/) for articles that apply to the Control Panel.\*\*For security reasons, you can only make administrative changes to your account when logged into the Service Panel. In this article we explain how you can edit your customer data.
+\*\*Please note that this only applies to Service Panel users who log in via service.byte.nl. Please see [this category](../control-panel.md) for articles that apply to the Control Panel.\*\*For security reasons, you can only make administrative changes to your account when logged into the Service Panel. In this article we explain how you can edit your customer data.
 
 ## Why Do I Need to Log Into the Service Panel?
 
@@ -70,7 +73,7 @@ Changes to your plan and the different customer relationships / roles for managi
 
 ### Up- and Downgrading
 
-Please see [this article](https://support.hypernode.com/en/about/billing/how-to-up-or-downgrade-your-hypernode-plan)for more information on how to up- or downgrade your plan.
+Please see [this article](../../about-hypernode/billing/how-to-up-or-downgrade-your-hypernode-plan.md)for more information on how to up- or downgrade your plan.
 
 ## Changing the Account Roles
 

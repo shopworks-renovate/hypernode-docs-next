@@ -1,8 +1,11 @@
 ---
 myst:
   html_meta:
-    description: 'This article explains how to install SSL certificates on your Hypernode
-      when you have order them via hypernode.com. '
+    description: 'This article explains how to install SSL certificates on your Hypernode.
+      An SSL certificate keeps online interactions and transactions private. '
+    title: How to use SSL certificates when ordered via Hypernode?
+redirect_from:
+  - /en/hypernode/ssl/how-to-use-ssl-certificates-on-your-hypernode-when-ordered-via-hypernode-com/
 ---
 
 <!-- source: https://support.hypernode.com/en/hypernode/ssl/how-to-use-ssl-certificates-on-your-hypernode-when-ordered-via-hypernode-com/ -->
@@ -117,7 +120,7 @@ Let’s Encrypt is a way to order free SSL certificates through domain validatio
 - Let’s Encrypt does not provide wildcard and/or EV certificates
 - Let’s Encrypt SSL Certificates are only valid for a 3 months period.
 
-See [our documentation about configuring Let’s Encrypt on your Hypernode](https://support.hypernode.com/en/hypernode/ssl/how-to-use-let-s-encrypt-on-hypernode) on how to setup Let’s Encrypt on your Hypernode.
+See [our documentation about configuring Let’s Encrypt on your Hypernode](../ssl/how-to-use-lets-encrypt-on-hypernode.md) on how to set up Let’s Encrypt on your Hypernode.
 
 ## Changing Your Base URLs
 

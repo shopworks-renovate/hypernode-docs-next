@@ -3,6 +3,8 @@
 # This file only contains a selection of the most common options. For a full
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
+import os
+import sys
 
 # -- Path setup --------------------------------------------------------------
 
@@ -13,12 +15,13 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+sys.path.append(os.path.abspath("../"))
 
 
 # -- Project information -----------------------------------------------------
 
 project = "Docs"
-copyright = "2022, Hypernode"
+copyright = "2023, Hypernode"
 author = "Hypernode"
 
 # The full version, including alpha/beta/rc tags
@@ -40,6 +43,8 @@ extensions = [
     "myst_parser",
     "sphinx_copybutton",
     "notfound.extension",
+    "hypernode.sphinx.extensions.updated_at",
+    "sphinxcontrib.mermaid",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -61,6 +66,7 @@ html_theme_options = {
     "navigation_depth": 4,
     "collapse_navigation": False,
     "titles_only": False,
+    "analytics_id": "GTM-PDL826",
 }
 html_context = {
     "display_github": True,  # Integrate GitHub
@@ -71,6 +77,12 @@ html_context = {
 }
 html_show_sphinx = False
 html_show_sourcelink = False
+
+sitemap_url_scheme = "{link}"
+
+if os.getenv("DOCS_BASE_URL"):
+    html_baseurl = os.getenv("DOCS_BASE_URL")
+    extensions.append("sphinx_sitemap")  # Only generate sitemap when we have a base url
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -88,4 +100,4 @@ html_js_files = ["js/app.js"]
 
 notfound_no_urls_prefix = True
 
-myst_heading_anchors = 4
+myst_heading_anchors = 5

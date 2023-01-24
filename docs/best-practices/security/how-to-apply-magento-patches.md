@@ -1,9 +1,12 @@
 ---
 myst:
   html_meta:
-    description: Every now and then Magento issues a new patch to increase the security
-      of their software. In this article we explain how you can install them on your
-      webshop.
+    description: Learn how to apply Magento patches for optimal protection. Check
+      your shop with MageReport and ensure your webshop is not vulnerable to malicious
+      parties.
+    title: How to apply Magento patches? | Security | Hypernode
+redirect_from:
+  - /en/best-practices/security/how-to-deploy-magento-patches/
 ---
 
 <!-- source: https://support.hypernode.com/en/best-practices/security/how-to-deploy-magento-patches/ -->
@@ -34,7 +37,7 @@ There’s a chance that certain plugins or elements in your webshop aren’t com
 
 ### Step 2: Log on to SSH (Shell)
 
-Log on to the shell server. If you don’t how to log on, contact your hosting provider or technical contact. Hypernode customers can follow the steps in the article [How to Log in to the Hypernode With SSH](https://support.hypernode.com/en/hypernode/ssh/how-to-log-in-to-the-hypernode-with-ssh).
+Log on to the shell server. If you don’t how to log on, contact your hosting provider or technical contact. Hypernode customers can follow the steps in the article [How to Log in to the Hypernode With SSH](../../hypernode-platform/ssh/how-to-log-in-to-the-hypernode-with-ssh.md).
 
 ### Step 3: Download and Upload the Patch
 

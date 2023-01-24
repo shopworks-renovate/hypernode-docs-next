@@ -1,8 +1,12 @@
 ---
 myst:
   html_meta:
-    description: 'In this article, we provide you with a detailed roadmap about how
-      you can use PHPMyAdmin and how to create a database dump. '
+    description: This article will explain how you can use PHPMyAdmin and how to create
+      a database dump.
+    title: How to use PHPMyAdmin? | Hypernode
+redirect_from:
+  - /en/hypernode/mysql/how-to-use-phpmyadmin/
+  - /knowledgebase/use-phpmyadmin/
 ---
 
 <!-- source: https://support.hypernode.com/en/hypernode/mysql/how-to-use-phpmyadmin/ -->
@@ -11,7 +15,7 @@ myst:
 
 This article will explain how you can use PHPMyAdmin and how to create a database dump.
 
-*For your protection, phpMyAdmin by default is only accessible through the `example.hypernode.io/phpmyadmin/` URL, on Vagrant via the `*`example`*.hypernode.local/phpmyadmin/` url and on Docker through `YourBaseURL/dbadmin/` after you followed [these](https://support.hypernode.com/knowledgebase/use-phpmyadmin/#Reroute_phpmyadmin_to_dbadmin_and_add_a_whitelist) instructions. You can adjust this behaviour to your own preference.*
+*For your protection, phpMyAdmin by default is only accessible through the `example.hypernode.io/phpmyadmin/` URL, on Vagrant via the `*`example`*.hypernode.local/phpmyadmin/` url and on Docker through `YourBaseURL/dbadmin/` after you followed [these](#configure-phpmyadmin) instructions. You can adjust this behaviour to your own preference.*
 
 ## Accessing PHPMyAdmin
 
@@ -99,7 +103,7 @@ This is probably because you redirect ALL traffic over HTTPS. Try using PHPMyAdm
 
 - **I'm receiving an error while dumping the database**
 
-Most of the time this happens when a database is large and you exceed the `max_execution_time` or `memory_limit` in php. If this happens try [dumping your database on the command line](https://support.hypernode.com/knowledgebase/using-mysql-on-hypernode/#Creating_a_MySQL_back-up)
+Most of the time this happens when a database is large and you exceed the `max_execution_time` or `memory_limit` in php. If this happens try [dumping your database on the command line](how-to-use-mysql-on-hypernode.md#creating-a-mysql-back-up)
 
 - **My phpMyAdmin does not show any images**
 

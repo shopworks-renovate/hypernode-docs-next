@@ -1,8 +1,11 @@
 ---
 myst:
   html_meta:
-    description: 'Find detailed guidelines on how to create a sitemap.xml for Magento
-      1.x versions here. '
+    description: This article explains how to enable a sitemap.xml in Magento 1 and
+      how to configure NGINX to Use the Same Sitemap for All Storefronts.
+    title: How to create a sitemap xml for Magento 1? | Hypernode
+redirect_from:
+  - /en/ecommerce/magento-1/how-to-create-a-sitemap-xml-for-magento-1-x/
 ---
 
 <!-- source: https://support.hypernode.com/en/ecommerce/magento-1/how-to-create-a-sitemap-xml-for-magento-1-x/ -->
@@ -14,7 +17,7 @@ myst:
 ### Configure Magento to Create Sitemaps
 
 - To enable sitemaps inside Magento, log in to your admin
-- Make sure your [crontab is working properly](https://support.hypernode.com/knowledgebase/configure-cronjobs-on-hypernode/)
+- Make sure your [crontab is working properly](../../hypernode-platform/tools/how-to-use-periodic-tasks-cronjobs-on-hypernode.md)
 - Navigate to `System` > `Configuration` > `Catalog` > `Google Sitemap` > `Generation Settings`
 
 Now fill in the information:

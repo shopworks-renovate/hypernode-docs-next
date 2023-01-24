@@ -1,8 +1,11 @@
 ---
 myst:
   html_meta:
-    description: 'By adding HTTP headers to a file or location, you can provide additional
-      information for several reasons. Find out how to add customer HTTP headers here. '
+    description: 'In some cases, you may wish to add additional HTTP headers to a
+      file or location. Read how to do this, in this article. '
+    title: How to add custom http headers to a file or location? Hypernode
+redirect_from:
+  - /en/hypernode/nginx/how-to-add-custom-http-headers-to-a-file-or-location/
 ---
 
 <!-- source: https://support.hypernode.com/en/hypernode/nginx/how-to-add-custom-http-headers-to-a-file-or-location/ -->
@@ -53,7 +56,7 @@ add_header Access-Control-Allow-Origin "https://www.example.com";
 
 And don’t forget to change the domain name in the above example. You could add more file extensions if you want.
 
-# Keep in Mind
+## Keep in Mind
 
 - It is only possible in Nginx to add locations once. Only the first location in the configuration file takes presence. This is because the Nginx config works on a per-request base.
 - Don’t use a colon (`:`) when adding headers. This will result in inconsistent results in different browsers.

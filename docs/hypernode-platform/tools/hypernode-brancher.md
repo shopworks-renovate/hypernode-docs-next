@@ -1,3 +1,13 @@
+---
+myst:
+  html_meta:
+    description: 'Hypernode Brancher is a powerful tool that allows users to create
+      and manage temporary servers based on their production Hypernode. Learn more. '
+    title: Hypernode Brancher | Everything you need to know
+redirect_from:
+  - /en/support/solutions/articles/48001227297-hypernode-brancher/
+---
+
 <!-- source: https://support.hypernode.com/en/support/solutions/articles/48001227297-hypernode-brancher/ -->
 
 # Hypernode Brancher
@@ -18,7 +28,7 @@ Hypernode Brancher is a mutable and temporary copy of your Hypernode. It’s bas
 
 If you wish to get a more recent state on the Brancher node, you can create a new backup on your Hypernode using `hypernode-systemctl create_backup`. Note that this requires SLA Standard to be enabled on your Hypernode.
 
-Read more about our [backup policy here](https://support.hypernode.com/en/hypernode/backups/hypernode-backup-policy).
+Read more about our [backup policy here](../backups/hypernode-backup-policy.md).
 
 ## Why should I use it?
 
