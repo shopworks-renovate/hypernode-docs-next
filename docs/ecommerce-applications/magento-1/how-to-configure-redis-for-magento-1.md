@@ -177,7 +177,7 @@ rm -rf /data/web/public/var/cache/* redis-cli flushall
 
 We have made is possible to enable a second Redis instance more tailored for saving session data (more informatie can be found in our [changelog](https://changelog.hypernode.com/changelog/experimental-changes-redis-sessions-aws-performance/))
 
-To enable the second Redis instance for sessions you run the command: `hypernode-systemctl settings redis_persistent_instance --value True`
+To enable the second Redis instance for sessions you run the command: `hypernode-systemctl settings redis_persistent_instance True`
 
 After enabling the second Redis instance you need to update the `/data/web/public/app/etc/local.xml` file and change the port value to `6378` instead of the default `6379`. Furthermore you need to add the following line to your crontab:
 
